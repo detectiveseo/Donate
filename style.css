@@ -153,3 +153,44 @@ hr{
 .contribute-btn{
     margin-top: 20px;
 }
+
+/*updates section*/
+.updates{
+    padding: 100px 250px;
+    text-align: center;
+}
+.subscribe-form-warp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    background: #FFF4D6;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.subscribe-form-warp form input{
+    padding: 15px;
+    background: #D9D9D9;
+    border: transparent;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 25px;
+}
+.subscribe-form-warp form input[type=button]{
+    background-color: #FF5959;
+    color: #fff;
+    border-radius:0;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/*Footer Edit*/
+footer{
+    height: 400px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
