@@ -134,15 +134,18 @@ hr{
 }
 
 /*contribute section edit*/
+.info-contribute{
+    padding: 100px 250px;
+}
 .contribute{
     display: flex;
-    padding: 5px 250px;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
 }
 .contribute > div{
     width: 50%;
+}
+.contribute-info{
+    padding-right: 5%;
 }
 .contribute h1{
     font-size: 45px;
