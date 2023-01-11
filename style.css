@@ -324,4 +324,11 @@ footer{
         margin: 0;
         padding: 20px;
     }
+    .subscribe-form-warp{
+        padding: 50px;
+    }
+    .subscribe-form-warp form input[type=button]{
+        margin-top: 20px;
+        border-radius: 7px;
+    }
 }
