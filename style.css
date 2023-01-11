@@ -279,8 +279,13 @@ footer{
         align-items: center;
     }
 
+    .donate-now{
+        margin: 0px;
+        padding: 20px;
+    }
+
     .donate-now .taka-box{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /*Donate Plan section style*/

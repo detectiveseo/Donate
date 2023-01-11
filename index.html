@@ -32,11 +32,11 @@
         <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
 
         <div class="taka-box">
-            <div><h3>100tk</h3></div>
-            <div><h3>200tk</h3></div>
-            <div><h3>300tk</h3></div>
-            <div><h3>400tk</h3></div>
-            <div><h3>500tk</h3></div>
+            <div><h3 class="donate-value">100tk</h3></div>
+            <div><h3 class="donate-value">200tk</h3></div>
+            <div><h3 class="donate-value">300tk</h3></div>
+            <div><h3 class="donate-value">400tk</h3></div>
+            <div><h3 class="donate-value">500tk</h3></div>
         </div>
         <form action="" class="donate-form">
             <input type="number" name="donate-num" id="donate-num" placeholder="Other Amount(Taka)">
@@ -109,4 +109,16 @@
         <h1>Imran</h1>
     </footer>
 </body>
+ 
+    <script>
+        const donateValue = document.getElementsByClassName('donate-value');
+        const donateNum = document.getElementById('donate-num');
+        
+        donateValue.addEventListener('click', function(){
+            return
+                console.log(donateValue)
+            
+        })
+    </script>
+
 </html>
