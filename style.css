@@ -112,7 +112,8 @@ hr{
     padding: 50px 250px;
 }
 .donate-plan-box-warp{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding-top: 30px;
 }
@@ -280,5 +281,34 @@ footer{
 
     .donate-now .taka-box{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*Donate Plan section style*/
+    .donate-plan{
+        margin: 0;
+        padding: 20px;
+    }
+    .donate-plan-box-warp{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .info-contribute{
+        padding: 20px;
+    }
+    .contribute{
+        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contribute > div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contribute-box-two{
+        flex-direction: column-reverse;
+    }
+    /*Updates sectiontion style*/
+    .updates{
+        margin: 0;
+        padding: 20px;
     }
 }
