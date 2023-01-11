@@ -74,7 +74,8 @@ hr{
     text-align: center;
 }
 .taka-box{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
@@ -193,4 +194,91 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+
+/*Madium Device Responsive*/
+@media screen and (min-width: 820px) and (max-width: 1180px){
+
+
+    /*hero section style*/
+    .hero{
+        padding: 0px;
+        margin: 0px;
+        gap: 0px;
+        height: fit-content;
+    }
+    .hero-info{
+        margin: 100px 0px;
+        padding-left: 20px;
+        width: 70%;
+    }
+    .hero-info h1{
+        font-size: 50px;
+    }
+    .hero-model{
+        width: 30%;
+    }
+    .hero-model img{
+        width: 100%;
+    }
+
+
+    /*Donate plan section style*/
+
+    .donate-plan{
+        margin: 0;
+        padding: 30px;
+    }
+    .contribute{
+        margin-bottom: 50px;
+        gap: 20px;
+    }
+    .info-contribute{
+        margin: 0px;
+        padding: 30px;
+    }
+
+    .contribute-info div img{
+        width: 100%;
+    }
+
+    /*upates section style*/
+    .updates{
+        margin: 0;
+        padding: 50px;
+    }
+}
+
+
+/*Mobile Device Responsive*/
+@media screen and (max-width: 819px){
+    .hero{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .hero-info h1{
+        font-size: 50px;
+        padding: 0;
+        margin: 0;
+    }
+    .hero-info p{
+        padding-right: 10px;
+    }
+    .hero-model{
+        width: 100%;
+        align-items: center;
+    }
+
+    .donate-now .taka-box{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
